@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
 
 
 app.get('/', function(req, res) {
-  res.send('hello world');
+  res.send('Just a simple app that serves pre configured JSON data. Enjoy.');
 });
 
 app.get('/formData', function(req, res) {
