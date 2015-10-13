@@ -1,12 +1,12 @@
 {
   "name": "jsonserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple JSON App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Tim Whitacre",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3"
