@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
   res.send('Just a simple app that serves pre configured JSON data. Enjoy.');
 });
 
-app.get('/formData', function(req, res) {
+app.get('/forms', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.send(formData);
 });
